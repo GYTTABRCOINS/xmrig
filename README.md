@@ -44,7 +44,7 @@ xmrig.exe -o pool.monero.hashvault.pro:5555 -u YOUR_WALLET -p x -k
 
 ### Failover
 ```
-xmrig.exe -o pool.monero.hashvault.pro:5555 -u YOUR_WALLET1 -p x -k -o pool.supportxmr.com:5555 -u YOUR_WALLET2 -p x -k
+xmrig.exe -o etn.pool.semipool.com:5555 -u YOUR_WALLET1 -p x -k -o etn-eu1.nanopool.org:13333 -u YOUR_WALLET2 -p x -k
 ```
 For failover you can add multiple pools, maximum count not limited.
 
