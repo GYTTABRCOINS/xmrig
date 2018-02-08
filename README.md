@@ -39,13 +39,13 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
 ## Usage
 ### Basic example
 ```
-xmrig.exe -o pool.monero.hashvault.pro:5555 -u YOUR_WALLET -p x -k
+xmrig.exe -o pool.etn.semipool.com:5555 -u YOUR_WALLET -p x -k
 ```
 
 ### Failover
 ```
-xmrig.exe -o pool.monero.hashvault.pro:5555 -u YOUR_WALLET1 -p x -k -o pool.supportxmr.com:5555 -u YOUR_WALLET2 -p x -k
-```
+xmrig.exe -o pool.etn.semipool.com:5555 -u YOUR_WALLET1 -p x -k -o france.etn.semipool.com:5555 -u YOUR_WALLET2 -p x -k
+``` 
 For failover you can add multiple pools, maximum count not limited.
 
 ### Options
