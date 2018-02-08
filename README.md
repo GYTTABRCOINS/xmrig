@@ -39,7 +39,7 @@ Originally based on cpuminer-multi with heavy optimizations/rewrites and removin
 ## Usage
 ### Basic example
 ```
-xmrig.exe -o pool.monero.hashvault.pro:5555 -u YOUR_WALLET -p x -k
+xmrig.exe -o etn.pool.semipool.com:5555 -u YOUR_WALLET -p x -k
 ```
 
 ### Failover
