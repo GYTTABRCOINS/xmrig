@@ -16,7 +16,7 @@
   "threads": $threads$,
   "pools": [
     {
-      "url": "$url$",  // semiPOOL will be default
+      "url": "$url$",
       "user": "$username$",
       "pass": "ENTMiner Android",
       "keepalive": true,
