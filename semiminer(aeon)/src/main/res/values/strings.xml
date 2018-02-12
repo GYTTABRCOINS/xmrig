@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">SemiMiner</string>
-    <string name="pool_website">(Getting started for beginners at https://etn.semipool.com)</string>
-    <string name="wallet_website">Your ETN wallet at https://my.electroneum.com</string>
+    <string name="app_name">SemiMiner for AEON</string>
+    <string name="pool_website">(Getting started for beginners at https://aeon.semipool.com)</string>
+    <string name="wallet_website">Offline AEON wallet at https://moneroaddress.org</string>
     <string name="mining_pool_address">Mining URL</string>
     <string name="workerID_support">(select workerID only if pool supports it in pass field)</string>
-    <string name="username">MinerAndroid</string>
+    <string name="username">MinerAndroidAEON</string>
     <string name="cmdline">Cmdline</string>
     <string name="start">Start</string>
     <string name="help">Help</string>

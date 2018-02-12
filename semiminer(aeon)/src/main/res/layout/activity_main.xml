@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.semipool.apk.semiminer.MainActivity">
+    tools:context="com.semipool.apk.semimineraeon.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
         android:id="@+id/pool"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="pool.etn.semipool.com:3333" />
+        android:text="pool.aeon.semipool.com:3333" />
 
     <TextView
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="etnk8fNCxULBqajj5wEaRCJNABueJVjNo7yn7FMiaU38HJjkwaav88NZUHKQoVdDNK3G45MUHtjsvcNjceEi6faL24F3vVWgjY" />
+        android:text="WmsN48nNHM4cHAxvhDDzP5gjPSDJmfyRkiGQ9Drr9GsuNzNpfrngv1nDnFKEg8VgpuhTCRHYtrs5c9VpPPrzuUFd257S1uJQG" />
 
     <LinearLayout
         android:layout_width="wrap_content"
