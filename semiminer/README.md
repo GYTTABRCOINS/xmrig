@@ -19,6 +19,9 @@ The help button will show xmrig's help output for convenience.
 As this is considered a proof of concept, only pool address, username, threads and max cup usage can be
 edited in the UI currently (there is currently no sanity check to your inputs). You can change the rest of the config in assets/config.json.
 The configuration is set to low values and regular display of hashrate is set to 1m.  
+
+# Build
+Using Android Studio to build
   
 # Notes
   
