@@ -1,5 +1,34 @@
+# v2.5.2
+- [#448](https://github.com/xmrig/xmrig/issues/478) Fixed broken reconnect.
+
+# v2.5.1
+- [#454](https://github.com/xmrig/xmrig/issues/454) Fixed build with libmicrohttpd version below v0.9.35.
+- [#456](https://github.com/xmrig/xmrig/issues/459) Verbose errors related to donation pool was not fully silenced.
+- [#459](https://github.com/xmrig/xmrig/issues/459) Fixed regression (version 2.5.0 affected) with connection to **xmr.f2pool.com**.
+
+# v2.5.0
+- [#434](https://github.com/xmrig/xmrig/issues/434) **Added support for Monero v7 PoW, scheduled on April 6.**
+- Added full IPv6 support.
+- Added protocol extension, when use the miner with xmrig-proxy 2.5+ no more need manually specify `nicehash` option.
+- [#123](https://github.com/xmrig/xmrig-proxy/issues/123) Fixed regression (all versions since 2.4 affected) fragmented responses from pool/proxy was parsed incorrectly.
+- [#428](https://github.com/xmrig/xmrig/issues/428) Fixed regression (version 2.4.5 affected) with CPU cache size detection.
+
+# v2.4.5
+- [#324](https://github.com/xmrig/xmrig/pull/324) Fixed build without libmicrohttpd (CMake cache issue).
+- [#341](https://github.com/xmrig/xmrig/issues/341) Fixed wrong exit code and added command line option `--dry-run`.
+- [#385](https://github.com/xmrig/xmrig/pull/385) Up to 20% performance increase for non-AES CPU and fixed Intel Core 2 cache detection.
+
+# v2.4.4
+ - Added libmicrohttpd version to --version output.
+ - Fixed bug in singal handler, in some cases miner wasn't shutdown properly.
+ - Fixed recent MSVC 2017 version detection.
+ - [#279](https://github.com/xmrig/xmrig/pull/279) Fixed build on some macOS versions.
+
 # v2.4.3
+ - [#94](https://github.com/xmrig/xmrig/issues/94#issuecomment-342019257) [#216](https://github.com/xmrig/xmrig/issues/216) Added **ARMv8** and **ARMv7** support. Hardware AES supported, thanks [Imran Yusuff](https://github.com/imranyusuff).
+ - [#157](https://github.com/xmrig/xmrig/issues/157) [#196](https://github.com/xmrig/xmrig/issues/196) Fixed Linux compile issues.
  - [#184](https://github.com/xmrig/xmrig/issues/184) Fixed cache size detection for CPUs with disabled Hyper-Threading.
+ - [#200](https://github.com/xmrig/xmrig/issues/200) In some cases miner was doesn't write log to stdout.
 
 # v2.4.2
  - [#60](https://github.com/xmrig/xmrig/issues/60) Added FreeBSD support, thanks [vcambur](https://github.com/vcambur).
